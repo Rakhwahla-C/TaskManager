@@ -11,7 +11,7 @@ using TaskManager.Application.Interfaces;
 
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
-namespace TaskManager.TaskCreator.TaskCreator.Api
+namespace TaskManager.TaskCreator.TaskManager.Api
 {
     public class Function
     {
